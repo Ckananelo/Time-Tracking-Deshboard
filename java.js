@@ -122,6 +122,10 @@ function DailyTime(){
   document.getElementById("hrs6").innerHTML = Data[5].timeframes.daily.current + "hrs"
   document.getElementById("prehrs6").innerHTML = "Last week - " + Data[5].timeframes.daily.previous + "hrs"
   
+  document.getElementById("Daily").style.color = "Red"
+  document.getElementById("Weekly").style.color = "rgb(47, 47, 109)"
+  document.getElementById("Monthly").style.color = "rgb(47, 47, 109)"
+  
 }
 
 function WeeklyTime(){
@@ -138,6 +142,9 @@ function WeeklyTime(){
   document.getElementById("hrs6").innerHTML = Data[5].timeframes.weekly.current + "hrs"
   document.getElementById("prehrs6").innerHTML = "Last week - " + Data[5].timeframes.weekly.previous + "hrs"
 
+  document.getElementById("Daily").style.color = "rgb(47, 47, 109)"
+  document.getElementById("Weekly").style.color = "red"
+  document.getElementById("Monthly").style.color = "rgb(47, 47, 109)"
 }
 
 function monthlyTime(){
@@ -154,4 +161,7 @@ function monthlyTime(){
   document.getElementById("hrs6").innerHTML = Data[5].timeframes.monthly.current + "hrs"
   document.getElementById("prehrs6").innerHTML = "Last week - " + Data[5].timeframes.monthly.previous + "hrs"
 
+  document.getElementById("Daily").style.color = "rgb(47, 47, 109)"
+  document.getElementById("Weekly").style.color = "rgb(47, 47, 109)"
+  document.getElementById("Monthly").style.color = "red"
 }
