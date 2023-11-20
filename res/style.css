@@ -1,0 +1,269 @@
+*{
+    font-family: ubik;
+    font-weight: 300, 400, 500;
+}
+
+body{
+
+background-color: hsl(226, 43%, 10%);
+
+}
+.container{
+padding-top: 300px;
+padding-left: 300px;
+display: flex;
+width: 100vw;
+background-color: hsl(226, 43%, 10%);
+flex-wrap: wrap;
+
+}
+
+.aside{
+
+    width: 250px;
+    height: 400px;
+    background-color: hsl(226, 43%, 10%);
+    
+}
+
+.main{
+
+    width: 700px;
+    height: 500px;
+    display: flex;
+    background-color: hsl(226, 43%, 10%);
+    justify-content:space-between;
+    flex-wrap: wrap;
+    position: relative;
+    
+   
+}
+.main *:hover{
+    opacity: 0.9;
+}
+
+#box0{
+
+    width: 220px;
+    height: 450px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    
+}
+
+#box00{
+
+    width: 220px;
+    height: 300px;
+    background-color: rgb(167, 35, 255); 
+    border-radius: 10px; 
+    text-align: left;
+    
+}
+
+#box1{
+
+width: 220px;
+height: 200px;
+background-color: hsl(15, 100%, 70%);
+border-radius: 10px;
+
+
+}
+
+#box11{
+width: 220px;
+height: 180px;
+background-color:  hsl(235, 46%, 20%);
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+#box11>div{
+
+display: flex;
+
+}
+
+#ellipsis1{
+
+    padding-left: 65%;
+    padding-top: 17%;
+    cursor: pointer;
+}
+
+#box2{
+    width: 220px;
+    height: 200px;
+    background-color: hsl(195, 74%, 62%); 
+    border-radius: 10px;
+}
+
+#box22{
+    width: 220px;
+    height: 180px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#box22>div{
+
+    display: flex;
+    
+    }
+    #ellipsis2{
+
+        padding-left: 65%;
+        padding-top: 17%;
+        cursor: pointer;
+    }
+
+#box3{
+    width: 220px;
+    height: 200px;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 10px; 
+}
+
+#box33{
+    width: 220px;
+    height: 180px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;  
+    cursor: pointer;
+
+}
+#box33>div{
+
+    display: flex;
+    
+    }
+    #ellipsis3{
+
+        padding-left: 65%;
+        padding-top: 17%;
+        cursor: pointer;
+    }
+
+#box4{
+    width: 220px;
+    height: 200px;
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 10px; 
+}
+
+#box44{
+    width: 220px;
+    height: 180px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;  
+    cursor: pointer;
+
+}
+#box44>div{
+
+    display: flex;
+    
+    }
+    #ellipsis4{
+
+        padding-left: 55%;
+        padding-top: 17%;
+        cursor: pointer;
+    }
+
+#box5{
+    width: 220px;
+    height: 200px;
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 10px;  
+}
+
+#box55{
+    width: 220px;
+    height: 180px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;  
+    cursor: pointer;
+
+}
+#box55>div{
+
+    display: flex;
+    
+    }
+    #ellipsis5{
+
+        padding-left: 63%;
+        padding-top: 17%;
+        cursor: pointer;
+    }
+
+#box6{
+    width: 220px;
+    height: 200px;
+    background-color: hsl(43, 84%, 65%); 
+    border-radius: 10px; 
+
+}
+
+#box66{
+    width: 220px;
+    height: 180px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#box66>div{
+
+    display: flex;
+    
+    }
+    #ellipsis6{
+
+        padding-left: 55%;
+        padding-top: 17%;
+        cursor: pointer;
+    }
+
+button{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+h1{
+    color: hsl(233, 48%, 81%);
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+
+h6{
+    color: hsl(246, 43%, 43%);
+    font-family: Rubik;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+h4{
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 400;
+    color: #ecbfbf;
+    margin-left: 10px;
+}
+
+h2{
+    color: hsl(233, 48%, 81%);
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: xx-large;
+    margin-left: 10px;
+}

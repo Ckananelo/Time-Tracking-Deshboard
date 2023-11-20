@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Time tracking dasboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="./res/style.css">
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+            
+            <aside>
+                <div class="aside">
+                    <div id="box0">
+                        <div id="box00">
+                            <img style="border-style: solid; border-color: rgb(255, 255, 255); border-radius: 100px; margin-left: 20px; margin-top: 25px;" src="./src/image-jeremy.png" width="80px" height="80px">
+                            <p>
+                                <h6>Report for</h6>
+                                <h1>Jeremy <br> Robson</h1>
+                            </p>
+                    </div>
+
+                    <P>
+                        <button onclick="DailyTime()", style="color: rgb(47, 47, 109);">Daily</button><br><br>
+                        <button onclick=" WeeklyTime()" style="color: aqua;">Weekly</button><br><br>
+                        <button onclick="monthlyTime()" style="color: rgb(47, 47, 109);">Monthly</button>
+                    </P>
+                 
+                </div>
+                
+            </aside>
+
+            <div class="main">
+
+                <div id="box1">  
+                    <img style="padding-left: 70%;" src="./src/icon-work.svg" width="30px" height="40px">
+                    <div id="box11">
+                    
+                        <div><h4>work</h4><img id="ellipsis1" src="./src/icon-ellipsis.svg" width="13px" height="5px"></div>
+                        <h2 id="hrs1">32hrs</h2>
+                        <h6 id="prehrs">Last Week - 36hrs</h6>
+                        
+                    </div>
+
+                </div> 
+
+                <div id="box2">
+                    <img style="padding-left: 70%;" src="./src/icon-play.svg" width="30px" height="40px">
+                    <div id="box22">
+                        <div><h4>Play</h4><img id="ellipsis2" src="./src/icon-ellipsis.svg" width="13px" height="5px"></div>
+                        <p><h2 id="hrs2">10hrs</h2></p>
+                        <p><h6 id="prehrs2">Last Week - 8hrs</h6></p>
+                    </div>
+                </div>
+                
+
+                <div id="box3">
+                    <img style="padding-left: 70%;" src="./src/icon-study.svg" width="30px" height="40px">
+                    <div id="box33">
+                        <div><h4>Study</h4><img id="ellipsis3" src="./src/icon-ellipsis.svg" width="13px" height="5px"></div>
+                        <p><h2 id="hrs3">34rs</h2></p>
+                        <p><h6 id="prehrs3">Last Week - 7hrs</h6></p>
+                    </div>
+                </div>
+
+                <div id="box4">
+                    <img style="padding-left: 70%;" src="./src/icon-exercise.svg" width="30px" height="40px">
+                    <div id="box44">
+                        <div><h4>Exercise</h4><img id="ellipsis4" src="./src/icon-ellipsis.svg" width="13px" height="5px"></div>
+                        <p><h2 id="hrs4">4hrs</h2></p>
+                        <p><h6 id="prehrs4">Last Week - 5hrs</h6></p>  
+                    </div>
+                </div>
+
+                <div id="box5">
+                    <img style="padding-left: 70%;" src="./src/icon-social.svg" width="30px" height="40px">
+                    <div id="box55">
+                        <div><h4>Social</h4><img id="ellipsis5" src="./src/icon-ellipsis.svg" width="13px" height="5px"></div>
+                        <p><h2 id="hrs5">5hrs</h2></p>
+                        <p><h6 id="prehrs5">Last Week - 10hrs</h6></p>
+                    </div>
+                </div>
+
+                <div id="box6">
+                    <img style="padding-left: 70%;" src="./src/icon-self-care.svg" width="30px" height="40px">
+                    <div id="box66">
+                        <div><h4>Self Care</h4><img id="ellipsis6" src="./src/icon-ellipsis.svg" width="13px" height="5px"></div>
+                        <p><h2 id="hrs6">2hrs</h2></p>
+                        <p><h6 id="prehrs6">Last Week - 2hrs</h6></p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <script src="./java.js"></script>
+
+    </body>
+
+</html>
