@@ -267,3 +267,14 @@ h2{
     font-size: xx-large;
     margin-left: 10px;
 }
+@media screen and (max-width: 425px) {
+    
+    .container {
+    flex-direction: "block";
+    justify-content: space-between;
+    
+
+    }
+
+    
+}
